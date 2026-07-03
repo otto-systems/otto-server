@@ -12,8 +12,8 @@ export function createServer(): OttoServer {
   const moduleHost = new ModuleHost();
   const updateHost = new UpdateHost();
 
-  moduleHost.register({ id: "core.shell", name: "Core Shell", version: "0.2.0" });
-  updateHost.set({ channel: "stable", currentVersion: "0.2.0", targetVersion: "0.2.0" });
+  moduleHost.register({ id: "core.shell", name: "Core Shell", version: "0.2.1" });
+  updateHost.set({ channel: "stable", currentVersion: "0.2.1", targetVersion: "0.2.1" });
 
   registerHealthRoutes(server);
   registerModuleRoutes(server);
