@@ -1,0 +1,23 @@
+wing: otto_server
+rooms:
+- name: src
+  description: Files from src/
+  keywords:
+  - src
+  - src
+- name: backend
+  description: Files from server/
+  keywords:
+  - backend
+  - server
+- name: gitops
+  description: Cross-repo sync, versioning, manifests, commits, and releases
+  keywords:
+  - gitops
+  - sync
+  - version
+  - manifest
+  - release
+- name: general
+  description: Files that don't fit other rooms
+  keywords: []
