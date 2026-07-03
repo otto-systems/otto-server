@@ -5,11 +5,14 @@
   "manifestConsistency": "validated",
   "schemaConsistency": "validated",
   "versionStatus": "aligned",
-  "releasePrep": "in_progress",
+  "releasePrep": "completed",
   "commit": {
-    "status": "pending"
+    "status": "committed",
+    "hash": "0f8f94defd56bb00b189513c7e36ff2270f2873b",
+    "message": "chore(release): prepare 0.2.0 gitops release"
   },
   "push": {
     "status": "pending"
-  }
+  },
+  "updatedAt": "2026-07-03T15:19:14.078Z"
 }
