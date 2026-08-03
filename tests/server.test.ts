@@ -27,6 +27,11 @@ describe("server routes", () => {
     const response = await server.inject({ method: "GET", url: "/updates" });
 
     expect(response.statusCode).toBe(200);
-    expect(response.json().targetVersion).toBe("0.2.1");
+    expect(response.json()).toMatchObject({
+      product: "courseforge",
+      channel: "stable",
+      targetVersion: "0.1.2"
+    });
+    expect(response.json().artifacts?.[0]?.name).toBe("courseforge-0.1.2-win32-x64.zip");
   });
 });
